@@ -1,0 +1,63 @@
+{"level":"info","message":"MashMongoDatabase: mash database connected"}
+{"level":"info","message":"constructed mash server"}
+{"level":"info","message":"MashMongoDatabase: mash database connected"}
+{"level":"info","message":"constructed mash server"}
+{"level":"info","message":"MashMongoDatabase: mash database connected"}
+{"level":"info","message":"constructed mash server"}
+{"level":"info","message":"MashRouteHandler: calendar_GET"}
+{"level":"info","message":"MashServer: entering getCalendar undefined"}
+{"level":"info","message":"MashRouteHandler: calendar_POST"}
+{"level":"info","message":"MashServer: entering createCalendar"}
+{"level":"info","message":"MashMongoDatabase: added calendar fought-grass-getting"}
+{"level":"info","message":"MashServer: finished createCalendar fought-grass-getting"}
+{"level":"info","message":"MashRouteHandler: calendar_GET"}
+{"level":"info","message":"MashServer: entering getCalendar fought-grass-getting"}
+{"level":"info","message":"MashServer: finished getCalendar fought-grass-getting"}
+{"level":"info","message":"MashRouteHandler: calendar_GET"}
+{"level":"info","message":"MashServer: entering getCalendar fought-grass-getting"}
+{"level":"info","message":"MashServer: finished getCalendar fought-grass-getting"}
+{"level":"info","message":"MashRouteHandler: calendar_GET"}
+{"level":"info","message":"MashServer: entering getCalendar fought-grass-getting"}
+{"level":"info","message":"MashServer: finished getCalendar fought-grass-getting"}
+{"level":"info","message":"MashRouteHandler: calendar_GET"}
+{"level":"info","message":"MashServer: entering getCalendar fought-grass-getting"}
+{"level":"info","message":"MashServer: finished getCalendar fought-grass-getting"}
+{"level":"info","message":"MashRouteHandler: calendar_GET"}
+{"level":"info","message":"MashServer: entering getCalendar fought-grass-getting"}
+{"level":"info","message":"MashServer: finished getCalendar fought-grass-getting"}
+{"level":"info","message":"MashRouteHandler: calendar_GET"}
+{"level":"info","message":"MashServer: entering getCalendar fought-grass-getting"}
+{"level":"info","message":"MashServer: finished getCalendar fought-grass-getting"}
+{"level":"info","message":"MashRouteHandler: calendar_GET"}
+{"level":"info","message":"MashServer: entering getCalendar fought-grass-getting"}
+{"level":"info","message":"MashServer: finished getCalendar fought-grass-getting"}
+{"level":"info","message":"MashRouteHandler: calendar_GET"}
+{"level":"info","message":"MashServer: entering getCalendar fought-grass-getting"}
+{"level":"info","message":"MashServer: finished getCalendar fought-grass-getting"}
+{"level":"info","message":"MashRouteHandler: calendar_GET"}
+{"level":"info","message":"MashServer: entering getCalendar fought-grass-getting"}
+{"level":"info","message":"MashServer: finished getCalendar fought-grass-getting"}
+{"level":"info","message":"MashRouteHandler: calendar_POST"}
+{"level":"info","message":"MashServer: entering createCalendar"}
+{"level":"info","message":"MashMongoDatabase: added calendar up-tune-giving"}
+{"level":"info","message":"MashServer: finished createCalendar up-tune-giving"}
+{"level":"info","message":"MashMongoDatabase: mash database connected"}
+{"level":"info","message":"constructed mash server"}
+{"level":"info","message":"MashMongoDatabase: mash database connected"}
+{"level":"info","message":"constructed mash server"}
+{"level":"info","message":"MashMongoDatabase: mash database connected"}
+{"level":"info","message":"constructed mash server"}
+{"level":"info","message":"MashMongoDatabase: mash database connected"}
+{"level":"info","message":"constructed mash server"}
+{"level":"info","message":"MashMongoDatabase: mash database connected"}
+{"level":"info","message":"constructed mash server"}
+{"level":"info","message":"MashMongoDatabase: mash database connected"}
+{"level":"info","message":"constructed mash server"}
+{"level":"info","message":"MashMongoDatabase: mash database connected"}
+{"level":"info","message":"constructed mash server"}
+{"level":"info","message":"MashMongoDatabase: mash database connected"}
+{"level":"info","message":"constructed mash server"}
+{"level":"info","message":"MashMongoDatabase: mash database connected"}
+{"level":"info","message":"constructed mash server"}
+{"level":"info","message":"MashRouteHandler: calendar_GET"}
+{"level":"info","message":"MashServer: entering getCalendar undefined"}

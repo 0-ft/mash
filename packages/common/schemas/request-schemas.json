@@ -1,0 +1,140 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "definitions": {
+        "CreateCalendarRequest": {
+            "properties": {
+                "readKey": {
+                    "description": "A public-private key pair as stored by the server -\nthe public key is plaintext but the private key is encrypted with a passphrase unknown to the server",
+                    "properties": {
+                        "encryptedPrivateKey": {
+                            "type": "string"
+                        },
+                        "publicKey": {
+                            "type": "string"
+                        }
+                    },
+                    "type": "object"
+                },
+                "writeKey": {
+                    "description": "A public-private key pair as stored by the server -\nthe public key is plaintext but the private key is encrypted with a passphrase unknown to the server",
+                    "properties": {
+                        "encryptedPrivateKey": {
+                            "type": "string"
+                        },
+                        "publicKey": {
+                            "type": "string"
+                        }
+                    },
+                    "type": "object"
+                }
+            },
+            "type": "object"
+        },
+        "DeleteCalendarRequest": {
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "signature": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        },
+        "GetCalendarRequest": {
+            "properties": {
+                "lastOperationHash": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        },
+        "MashRequest": {
+            "anyOf": [
+                {
+                    "properties": {
+                        "readKey": {
+                            "description": "A public-private key pair as stored by the server -\nthe public key is plaintext but the private key is encrypted with a passphrase unknown to the server",
+                            "properties": {
+                                "encryptedPrivateKey": {
+                                    "type": "string"
+                                },
+                                "publicKey": {
+                                    "type": "string"
+                                }
+                            },
+                            "type": "object"
+                        },
+                        "writeKey": {
+                            "description": "A public-private key pair as stored by the server -\nthe public key is plaintext but the private key is encrypted with a passphrase unknown to the server",
+                            "properties": {
+                                "encryptedPrivateKey": {
+                                    "type": "string"
+                                },
+                                "publicKey": {
+                                    "type": "string"
+                                }
+                            },
+                            "type": "object"
+                        }
+                    },
+                    "type": "object"
+                },
+                {
+                    "properties": {
+                        "lastOperationHash": {
+                            "type": "string"
+                        },
+                        "name": {
+                            "type": "string"
+                        }
+                    },
+                    "type": "object"
+                },
+                {
+                    "properties": {
+                        "encryptedOperation": {
+                            "type": "string"
+                        },
+                        "name": {
+                            "type": "string"
+                        },
+                        "signature": {
+                            "type": "string"
+                        }
+                    },
+                    "type": "object"
+                },
+                {
+                    "properties": {
+                        "name": {
+                            "type": "string"
+                        },
+                        "signature": {
+                            "type": "string"
+                        }
+                    },
+                    "type": "object"
+                }
+            ]
+        },
+        "UpdateCalendarRequest": {
+            "properties": {
+                "encryptedOperation": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "signature": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    }
+}
+
